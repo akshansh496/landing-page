@@ -1,0 +1,16 @@
+/* Reset default margins/padding */
+@import 'tailwindcss';
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Remove Vite's default text centering */
+#root {
+  text-align: left;
+  background: linear-gradient(to bottom, #0d1b2a, #1b263b);
+  color: white;
+}

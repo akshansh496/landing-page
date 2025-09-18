@@ -1,0 +1,44 @@
+
+/* ==================== BUTTONS ==================== */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;               
+  flex-wrap: wrap;         
+}
+
+.LoginButtons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5rem 2.5rem;
+  background-color: #3d3c3c; 
+  color: white;
+  border: none;
+  border-radius: 50px; 
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: none;    
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.LoginButtons:hover {
+  background-color: rgba(0, 255, 0, 0.3); 
+  transform: scale(1.05);
+}
+.LoginBox {
+  background-color: #1e1f20;   /* dark background */
+  border: 2px solid #1e1f20;  /* bright green border */
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px;
+  padding: 2rem 1.5rem;
+  border-radius: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.3); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}

@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  background: linear-gradient(to right, #0c182d 50%, #3a6ea5 100%);
+}
+
+.SignupBox {
+  background-color: #1e1f20;
+  border: 2px solid #1e1f20;
+  height: auto; /* allow height to adjust */
+  width: 100%;   /* responsive width */
+  max-width: 700px; /* never exceed 700px */
+  padding: 1.5rem;
+  border-radius: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.3);
+}
+
+/* Extra tweaks for smaller screens */
+@media (max-width: 768px) {
+  .SignupBox {
+    padding: 1rem;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .SignupBox {
+    width: 95%;
+    padding: 0.8rem;
+    border-radius: 15px;
+  }
+}
